@@ -1,0 +1,5 @@
+{# todays_menu_template.jinja #}
+{% for d in data %}
+* Food: {{ d.get("food") | capitalize }}
+  Ingredients: {{ d.get("ingredients") | join(', ') }}
+{% endfor %}

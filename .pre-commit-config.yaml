@@ -1,0 +1,54 @@
+repos:
+- repo: https://github.com/pycqa/pylint
+  rev: v2.17.4
+  hooks:
+    - id: pylint
+
+- repo: https://github.com/asottile/reorder_python_imports
+  rev: v3.9.0
+  hooks:
+    - id: reorder-python-imports
+      args: ["--application-directories", "src"]
+
+- repo: https://github.com/asottile/pyupgrade
+  rev: v3.3.1
+  hooks:
+    - id: pyupgrade
+      args: ["--py38-plus"]
+
+- repo: https://github.com/PyCQA/flake8
+  rev: 6.0.0
+  hooks:
+    - id: flake8
+      additional_dependencies: [flake8-bugbear]
+
+- repo: https://github.com/psf/black
+  rev: 22.12.0
+  hooks:
+    - id: black
+
+- repo: local
+  hooks:
+    - id: dodgy
+      name: Run dodgy
+      description: Detect things such as accidental SCM diff checkins,
+        or passwords or secret keys hard coded into files.
+      entry: dodgy
+      language: python
+
+- repo: https://github.com/python-poetry/poetry
+  rev: 1.5.0
+  hooks:
+    - id: poetry-check
+    - id: poetry-lock
+    - id: poetry-export
+      args: ["-f", "requirements.txt", "-o", "requirements/requirements.txt"]
+    - id: poetry-export
+      args: ["--only", "docs", "-f", "requirements.txt", "-o", "requirements/docs.txt"]
+
+- repo: https://github.com/pre-commit/pre-commit-hooks
+  rev: v4.4.0
+  hooks:
+    - id: end-of-file-fixer
+    - id: trailing-whitespace
+    - id: fix-byte-order-marker

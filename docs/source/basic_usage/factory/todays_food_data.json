@@ -1,0 +1,27 @@
+{
+  "data": [
+    {
+      "food": "sushi",
+      "ingredients": [
+        "Cherry salmon",
+        "Sea bream",
+        "Scallop",
+        "Conger eel"
+      ]
+    },
+    {
+      "food": "tempura",
+      "ingredients": [
+        "Asparagus",
+        "Bamboo shoots",
+        "Fava beans"
+      ]
+    },
+    {
+      "food": "Simmered fish",
+      "ingredients": [
+        "Japanese rockfish"
+      ]
+    }
+  ]
+}
