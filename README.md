@@ -2,6 +2,9 @@
 [![Run Tests](https://github.com/yuxki/templa/actions/workflows/tests.yml/badge.svg)](https://github.com/yuxki/templa/actions/workflows/tests.yml)
 [![Documentation Status](https://readthedocs.org/projects/templa/badge/?version=latest)](https://templa.readthedocs.io/en/latest/?badge=latest)
 [![Coverage Status](https://coveralls.io/repos/github/yuxki/templa/badge.svg?branch=master)](https://coveralls.io/github/yuxki/templa?branch=master)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![Stable Version](https://img.shields.io/pypi/v/templa)](https://pypi.org/project/templa/)
+[![Python Versions](https://img.shields.io/pypi/pyversions/templa)](https://pypi.org/project/templa)
 
 # templa
 
@@ -14,6 +17,14 @@ and build. The following are the assumed build processes in Templa:
 - Extract relevant information and elements from the rendered template for further processing.
 - Perform necessary processing on the parsed rendered template.
 - Utilize the processed rendered template to generate desired outputs or objects.
+
+
+## Installation
+```shell
+$ pip install templa
+```
+
+## Example
 
 ```python
 from dataclasses import dataclass
@@ -95,9 +106,4 @@ def build_sample_template() -> None:
 
 if __name__ == "__main__":
     build_sample_template()
-```
-
-## Install
-```shell
-$ pip install 'templa@git+https://github.com/yuxki/templa.git'
 ```

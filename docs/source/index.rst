@@ -13,6 +13,17 @@ and build. The following are the assumed build processes in Templa:
 
 .. _Jinja2: https://github.com/pallets/jinja
 
+
+Installation
+------------
+
+.. code-block:: console
+
+   $ pip install templa
+
+Example
+-------
+
 Here is an example of a program using Templa:
 
 .. include:: index_example.py

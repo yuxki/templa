@@ -1,10 +1,12 @@
 [tool.poetry]
 name = "templa"
 version = "0.1.0"
-description = ""
+description = "Building system using Jinja2 templates for your code."
 authors = ["yuxki <yuxki.ryoshi@gmail.com>"]
 license = "MIT"
 readme = "README.md"
+homepage = "https://github.com/yuxki/templa"
+documentation = "https://templa.readthedocs.io/en/latest/index.html"
 
 [tool.poetry.dependencies]
 python = "^3.9.16"
