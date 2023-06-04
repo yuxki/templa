@@ -1,6 +1,8 @@
 [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit)](https://github.com/pre-commit/pre-commit)
 [![Run Tests](https://github.com/yuxki/templa/actions/workflows/tests.yml/badge.svg)](https://github.com/yuxki/templa/actions/workflows/tests.yml)
 [![Documentation Status](https://readthedocs.org/projects/templa/badge/?version=latest)](https://templa.readthedocs.io/en/latest/?badge=latest)
+[![Coverage Status](https://coveralls.io/repos/github/yuxki/templa/badge.svg?branch=master)](https://coveralls.io/github/yuxki/templa?branch=master)
+
 # templa
 
 Templa is a Python library that offers a flexible and typed building system using
