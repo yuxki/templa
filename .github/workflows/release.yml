@@ -1,9 +1,10 @@
 ---
 name: Publish to PyPI
 
-push:
-  tags:
-    - '*'
+on:
+  push:
+    tags:
+      - '*'
 
 jobs:
   pypi-publish:
