@@ -3,10 +3,10 @@ from typing import Dict
 
 import jinja2
 
-from templa.config import Config
-from templa.config import ConfigData
-from templa.config import ConfigDataNotLoadedError
-from templa.yaml_builder import YAMLBuilder
+from templa import Config
+from templa import ConfigData
+from templa import ConfigDataNotLoadedError
+from templa import YAMLBuilder
 
 
 def test_yaml_builder(tmp_path: str) -> None:

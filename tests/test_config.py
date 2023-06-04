@@ -3,9 +3,9 @@ from typing import Any
 from typing import Dict
 from typing import Optional
 
-from templa.config import Config
-from templa.config import ConfigData
-from templa.config import ConfigDataNotLoadedError
+from templa import Config
+from templa import ConfigData
+from templa import ConfigDataNotLoadedError
 
 
 def test_config_new() -> None:

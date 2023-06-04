@@ -12,14 +12,14 @@ import jinja2
 import pytest
 import yaml
 
-from templa.builder import Builder
-from templa.builder import BuilderTargetBuilt
-from templa.builder import BuilderTargetInitialized
-from templa.builder import BuilderTargetProcessed
-from templa.builder import NotSameBuilderInstanceError
-from templa.builder import TemplateGettable
-from templa.config import Config
-from templa.config import ConfigData
+from templa import Builder
+from templa import BuilderTargetBuilt
+from templa import BuilderTargetInitialized
+from templa import BuilderTargetProcessed
+from templa import Config
+from templa import ConfigData
+from templa import NotSameBuilderInstanceError
+from templa import TemplateGettable
 
 
 def is_more_than_py_ver_311() -> bool:
