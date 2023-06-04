@@ -20,6 +20,7 @@ flake8 = "^6.0.0"
 types-pyyaml = "^6.0.12.9"
 black = "^23.3.0"
 pytest = "^7.3.1"
+coveralls = "^3.3.1"
 
 
 [tool.poetry.group.docs.dependencies]

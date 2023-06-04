@@ -26,3 +26,6 @@ jobs:
 
       - name: Run tox
         run: poetry run tox
+        env:
+          # For coveralls
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
