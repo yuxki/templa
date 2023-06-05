@@ -24,6 +24,10 @@ and build. The following are the assumed build processes in Templa:
 $ pip install templa
 ```
 
+## Docs
+
+[Templa Documentation](https://templa.readthedocs.io/en/latest/index.html)
+
 ## Example
 
 ```python
